@@ -1,0 +1,441 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #000000;
+}
+
+.nav-container {
+    background-color: #000000;
+    margin: 0px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+.start {
+    display: flex;
+    width: 20%;
+
+}
+
+.bar {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+.logo-yt {
+    height: 56px;
+    width: 120px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-yt img {
+    height: 20px;
+}
+
+.in {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: xx-small;
+}
+
+.logo-yt .you {
+    display: inline-block;
+    font-weight: bolder;
+
+}
+
+/* search-bar */
+.center {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 540px;
+    height: 40px;
+    border: 0.5px solid grey;
+    border-radius: 20px;
+    background-color: #ffffff14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.search-bar input {
+    width: 400px;
+    height: 90%;
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.search-bar input:hover{
+    width: 400px;
+    height: 90%;
+    background-color: transparent;
+    border: 0.01px grey;
+    font-size: x-large;
+    border-radius: 10px;
+    margin-left: 0px;
+
+}
+
+.search-bar i {
+    color: #ffffff;
+    border-left: 1px solid grey;
+    width: 15%;
+    height: 40px;
+    /* border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.mic {
+    color: white;
+    margin-left: 15px;
+}
+
+/* end */
+.end {
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.users {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+
+}
+
+/* side-nav */
+.side-nav-container {
+    background-color: #000000;
+    width: 260px;
+    display: flex;
+    height: 658px;
+    flex-direction: column;
+    color: white;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 54px;
+   position:fixed;
+
+}
+
+/* -------------------------------------------------scrol bar setting----------------------------------------------------- */
+.side-nav-container::-webkit-scrollbar {
+    width: auto;
+    background-color: black;
+}
+
+.side-nav-container::-webkit-scrollbar-track:hover {
+    background-color: #717171;
+}
+
+.side-nav-container::-webkit-scrollbar-thumb {
+    color: #717171;
+    background-color: #717790;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.side-nav-container p {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.home-logo {
+    margin-left: 15px;
+}
+
+.side-nav-container .side-logo {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.subscribe-logo,
+.likedvideos-logo {
+    margin-bottom: 15px;
+}
+
+.main-icon,
+.main2-icon,
+.subscription-area,
+.special-icon,
+.premium,
+.moreoptions {
+    border-bottom: 1px solid grey;
+}
+
+/* subscription area */
+h5 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscription-area .pro {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.profiles p {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub7 {
+    margin-bottom: 15px;
+}
+
+/* Explore */
+.special-icon p {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.special-icon .sp-i,
+.premium .mum,
+.moreoptions .mo {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+.special-icon {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fashion {
+    margin-bottom: 20px;
+}
+
+.yt-kids {
+    margin-bottom: 20px;
+}
+
+.mo-feedback {
+    margin-bottom: 20px;
+}
+
+/* copyright-section */
+.part1 a,
+.part2 a {
+    margin-right: 8px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+}
+
+.part1,
+.part2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-copyright p {
+    color: #717171;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.button {
+    padding: 7px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #717171;
+    border-radius: 20px;
+}
+
+.button2 {
+    padding: 8px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: #717171;
+    border-radius: 50%;
+}
+
+.button3:hover {
+    cursor: pointer;
+    background-color: #717171;
+    border-radius: 50%;
+}
+
+.button4 {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.button4:hover {
+    cursor: pointer;
+    background-color: #717171;
+    border-radius: 50
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.containt {
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position:fixed;
+    overflow: hidden;
+    overflow-y: scroll;
+    height:658px;
+  margin-top:0px;
+  margin-left: 260px;
+    width: 90%;
+    padding-left: 43px;
+    padding-top:0px;
+    padding-bottom:50px;
+    margin-bottom: 50px;
+
+}
+
+.containt .super {
+    background-color: aqua;
+    margin: 10px;
+    margin-top:20px;
+    width:360px;
+    height:300px;
+}
+
+.super .sub1 {
+    width: 360px;
+    height: 202px;
+}
+
+.image-containt {
+    width: 100%;
+}
+
+.super .sub2 {
+    background-color: #000000;
+    color: white;
+    padding-top:20px;
+    width:360px;
+  
+}
+.profile-pic{
+    display:flex;
+}
+.profile-pic .creator {
+    border-radius: 50%;
+    width: 50px;
+
+}
+ .sub2 .desc{
+    display:inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.channel-name{
+   margin-top: 0px;
+   margin-left: 65px;
+}
+/* --------------------------------------------------------containt container -------------------------------------*/
+.containt-container{
+    background-color: black;
+   
+    margin-top: 55px;
+}
+.search-history{
+    background-color:black;
+    padding-top:10px;
+   
+    margin-left:260px ;
+    display:flex;
+
+}
+.sh-button{
+    width:80px;
+    height:40px;
+    margin-left:50px ;
+    background-color: #ffffffa1;
+    color:BLACK;
+    border-radius: 30px;
+}
+.sh-button:hover{
+    width:80px;
+    height:40px;
+    margin-left:50px ;
+    background-color: #ffffffa1;
+    color:BLACK;
+    border-radius: 30px;
+    opacity: 40%;
+}
+.sh-button2{
+    width:80px;
+    height:40px;
+    margin-left:50px ;
+    background-color: black;
+    color:white;
+    border:1px solid grey;
+
+    border-radius: 30px;
+}
+.profile-subsc{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
